@@ -10,11 +10,18 @@ $ npm install
 $ npm run start
 ```
 
-## Build Docker image
+## How to use this API
 
 ```
-$ cd ~/express-hello-world  # or whatever is the directory location of this repo
-$ docker build -t hello-world-image .
+endpoint: localhost:3000/email
+
+request params:
+{
+    "name": "Test",
+    "email": "test.email@test.com",
+    "subject": "Hello",
+    "content": "Some Text"
+}
 ```
 
 
